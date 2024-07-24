@@ -1,7 +1,9 @@
 // function that returns a promise
 
-export default function getResponseFromAPI() {
+function getResponseFromAPI() {
     return new Promise((resolve) => {
         resolve({});
     });
 }
+
+export default getResponseFromAPI;
