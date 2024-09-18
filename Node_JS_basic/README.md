@@ -1,7 +1,7 @@
 # NodeJS Basics
 
 ## Resources
-## Read or watch:
+### Read or watch:
 
 - Node JS getting started
 - Process API doc
@@ -35,7 +35,7 @@
  
 
 ## Provided files
-database.csv
+### database.csv
 
 '
 firstname,lastname,age,field
@@ -51,11 +51,11 @@ Tommy,Schoul,32,SWE
 Katie,Shirou,21,CS
 '
 
-- package.json
+###  package.json
 
-- babel.confg.js
+###  babel.confg.js
 
-- .eslintrc.js
+### .eslintrc.js
 
 and…
 Don’t forget to run $ npm install when you have the package.json
