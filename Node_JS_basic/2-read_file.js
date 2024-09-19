@@ -14,8 +14,8 @@ function countStudents(path) {
 
         const fields = {};
 
-        students.forEach((student) => {
-            const [firstname, lastname, age, field] = student.split(',');
+        students.forEach(student => {
+            const [firstname, , , field] = student.split(',');
             if (!fields[field]) fields[field] = [];
             fields[field].push(firstname);
         });
@@ -24,7 +24,7 @@ function countStudents(path) {
             console.log(`Number of students in ${field}: ${names.length}. List: ${names.join(', ')}`);
         }
     } catch (error) {
-        console.log('Error reading file: ${error.message}');
+        console.error('Error reading file at path: ${path}');
         throw new Error('Cannot load the database');
     }
 }
