@@ -1,20 +1,21 @@
 
 module.exports = {
     env: {
-      browser: false,
+      browser: true,
       es6: true,
       jest: true,
     },
     extends: [
       'airbnb-base',
       'plugin:jest/all',
+      'eslint:recommended',
     ],
     globals: {
       Atomics: 'readonly',
       SharedArrayBuffer: 'readonly',
     },
     parserOptions: {
-      ecmaVersion: 2018,
+      ecmaVersion: 12,
       sourceType: 'module',
     },
     plugins: ['jest'],
@@ -28,6 +29,8 @@ module.exports = {
         'LabeledStatement',
         'WithStatement',
       ],
+      'linebreak-style': ["error", "windows"],
+      'indent': ["error", 4],
     },
     overrides:[
       {
