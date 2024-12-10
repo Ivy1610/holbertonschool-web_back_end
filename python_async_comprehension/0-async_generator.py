@@ -2,8 +2,8 @@
 """
 0-async_generator.py
 
-Ce module contient la coroutine `async_generator` qui génère
-des nombres aléatoires
+Ce module contient la coroutine `async_generator`
+qui génère des nombres aléatoires
 """
 
 
