@@ -43,5 +43,4 @@ All your functions should have a documentation (python3 -c 'print(__import__("my
 Your code should not be executed when imported (by using if __name__ == "__main__":)
 More Info
 Install MongoDB 4.4 in Ubuntu 20.04
-Official installation guide:wq
-
+Official installation guide
