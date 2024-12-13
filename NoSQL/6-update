@@ -1,0 +1,6 @@
+// Ajouter une nouvelle propriéteé "address" aux documentd avec le name: "Holberton school"
+db.school.updateMany(
+	{ name: "Holberton school"},
+	{ $set: { address: "972 Mission street" }}
+)
+
